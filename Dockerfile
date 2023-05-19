@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt update && apt install -y python3 python3-pip chromium-browser
+RUN apt update && apt install -y python3 python3-pip chromium-browser unzip
 
 RUN pip3 install selenium
 
